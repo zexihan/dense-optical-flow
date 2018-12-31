@@ -1,1 +1,2 @@
-# dense-optical-flow
+# Dense Optical Flow
+In this project we implemented the Lucas-Kanade method for estimating dense optical flow from a pair of images. The input is a pair of greyscale images taken from a video sequence, and the output will be two matrices containing the x and y components of the flow vector at each pixel. Full version of the 2-level pyramid is used to compute the optical flow. According to our experimental results, Lucas-Kanade method presents good performance in estimating dense optical flow.
